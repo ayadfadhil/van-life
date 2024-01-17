@@ -1,0 +1,5 @@
+node_modoles/
+dist/
+*.env
+.DS_Store
+```
