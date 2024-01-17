@@ -6,6 +6,20 @@
   height: 40vmin;
   pointer-events: none;
 }
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: bisque;
+}
+header > a {
+  text-decoration: none;
+}
+header > nav > a {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
